@@ -129,6 +129,7 @@ describe('TaskBoard Component', () => {
     expect(screen.getByTestId('task-list-list-123')).toBeInTheDocument();
     expect(screen.getByTestId('manage-tags-button')).toBeInTheDocument();
     expect(screen.getByTestId('add-list-button')).toBeInTheDocument();
+    expect(screen.getByText('Add List')).toBeInTheDocument();
   });
 
   test('adds a new list when add list button is clicked', () => {

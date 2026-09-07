@@ -231,7 +231,7 @@ function TaskBoard() {
           data-testid="add-list-button"
         >
           <PlusIcon className="h-10 w-10" />
-          <span className="mt-2 font-medium">Add New List</span>
+          <span className="mt-2 font-medium">Add List</span>
         </motion.button>
       </div>
     </div>
